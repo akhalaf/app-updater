@@ -19,6 +19,7 @@ func application(application: UIApplication, didFinishLaunchingWithOptions launc
     return true
 }
 ````
+![alt tag](https://cloud.githubusercontent.com/assets/3859305/9920657/ca33b03e-5cde-11e5-84a0-e4a670af6829.jpg)
 
 ## Force User To Update
 
@@ -27,6 +28,8 @@ func applicationDidBecomeActive(application: UIApplication) {
     AppUpdater.forceUpdate()
 }
 ````
+![alt tag](https://cloud.githubusercontent.com/assets/3859305/9920656/ca312ed6-5cde-11e5-90cb-aae1bc576b04.jpg)
+
 *Note: This method should be called from `applicationDidBecomeActive(application:)` to show the update message every time the user tries to re-open the app.
 
 ## Installation
