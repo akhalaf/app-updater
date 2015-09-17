@@ -6,10 +6,11 @@ Just imagine adding writing <b>ONE LINE OF CODE</b> to let all your users keep t
 
 ## Features
 
-- Simple
-- Fast
-- Redirecting user to the AppStore
-- Ability to force the user to update, or nicly remind him
+- Simple.
+- Fast.
+- Redirecting user to the AppStore.
+- Ability to force the user to update, or nicly remind him.
+- Localizable, and you can add new languages.
 
 ## Show Update Reminder
 
@@ -34,8 +35,14 @@ func applicationDidBecomeActive(application: UIApplication) {
 
 ## Installation
 
-- Copy `AppUpdater` folder into your project.
+- Copy `AppUpdater` folder into your project, and remember to choose `Create Groups` for added folders.
 - Link `SystemConfiguration.framework`.
+
+## Localization
+
+- English - base.
+- Arabic.
+- Spanish.
 
 ## License
 
