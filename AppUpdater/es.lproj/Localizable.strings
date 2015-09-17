@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  AppUpdater
+
+  Created by Ahmed Khalaf on 9/17/15.
+  Copyright (c) 2015 A.Khalaf. All rights reserved.
+*/
+
+/*!
+ * @discussion Title of the update message
+ * @param Your app name
+ */
+"title" = "Actualizar %@";
+/*!
+ * @discussion Content of the update message
+ * @param Your app name
+ * @param new version. e.g.: 2.0
+ */
+"message" = "%@ %@ está ahora disponible con nuevas características y correcciones de errores.";
+/*!
+ * @discussion Title of the update action button
+ */
+"update_action" = "Actualización";
+/*!
+ * @discussion Title of the cancel action button
+ */
+"cancel_action" = "Más tarde";

@@ -42,12 +42,14 @@ class AppUpdater: NSObject {
         }
         checkNewAppVersionWithBlock({ (newVersion, appUrl, version, appName) -> Void in
             if newVersion {
-                var alert = UIAlertController(title: "Update \(appName!)", message: "\(appName!) \(version!) is now available with great new features, and bug fixes.", preferredStyle: UIAlertControllerStyle.Alert)
-                alert.addAction(UIAlertAction(title: "Update", style: .Default, handler: { action in
+                var alert = UIAlertController(title: String(format: NSLocalizedString("title", comment: ""), appName!),
+                    message: String(format: NSLocalizedString("message", comment: ""), appName!, version!),
+                    preferredStyle: UIAlertControllerStyle.Alert)
+                alert.addAction(UIAlertAction(title: String(format: NSLocalizedString("update_action", comment: "")), style: .Default, handler: { action in
                     UIApplication.sharedApplication().openURL(NSURL(string: appUrl!)!)
                 }))
                 if !force {
-                    alert.addAction(UIAlertAction(title: "Later", style: .Destructive, handler: { action in
+                    alert.addAction(UIAlertAction(title: String(format: NSLocalizedString("cancel_action", comment: "")), style: .Destructive, handler: { action in
                     }))
                 }
                 let vc = UIApplication.sharedApplication().keyWindow?.rootViewController
