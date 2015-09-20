@@ -1,16 +1,16 @@
 # app-updater
-Swift iOS library checks the latest available version of your app on the AppStore, and shows the user alert to update the app.
+app-updater is a swift iOS library. It checks the latest available version of your app on the App Store and notifies the user to update the app.
 
 ## Why should I use it?
-Just imagine adding writing <b>ONE LINE OF CODE</b> to let all your users keep track of your latest updates, and getting a huge number of updates once you released your app's update. Isn't great? ;)
+Just imagine adding <b>ONE LINE OF CODE</b> to keep all your users up to date of your latest updates. This accelerates the adoption of your latest version as soon as it's released. Isn't that great? ;)
 
 ## Features
 
 - Simple.
 - Fast.
-- Redirecting user to the AppStore.
-- Ability to force the user to update, or nicly remind him.
-- Localizable, and you can add new languages.
+- Redirect user to the App Store.
+- Force the update or just display a reminder.
+- Localizable, and new languages can be added.
 
 ## Show Update Reminder
 
