@@ -44,6 +44,10 @@ func applicationDidBecomeActive(application: UIApplication) {
 - Arabic.
 - Spanish.
 
+## Credits
+
+This project was originally inspired by [ATAppUpdater](https://github.com/akhalaf/ATAppUpdater).
+
 ## License
 
 app-updater is released under the MIT license. See [LICENSE](LICENSE) for details.
